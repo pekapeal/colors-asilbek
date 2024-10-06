@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #8a6cff;
+  }
+  
+  .wrapper {
+    width: 650px;
+    padding: 25px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 1px 1px 40px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gradient-box {
+    width: 100%;
+    height: 320px;
+    border-radius: 7px;
+    background: linear-gradient(to left top,
+     #977dfe, #6878ff);
+  }
+  
+  .row :where(.column, button) {
+    width: calc(100% / 2 - 12px); 
+  }
+  
+  .row {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+  }
+  
+  .options p {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .select-box {
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+  }
+  
+  .select-box select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+  }
+  
+  .options .colors {
+    margin-left: 60px;
+  }
+  
+  .colors input {
+    height: 41px;
+    width: calc(100% / 2 - 20px);
+  }
+  
+  .colors input:last-child {
+    margin-left: 6px;
+  }
+  
+  .wrapper textarea {
+    width: 100%;
+    padding: 10px 15px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 18px;
+  }
+  
+  .buttons button {
+    padding: 20px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0 -15px;
+    color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .copy {
+    width: 220px;
+    background: #8a6cff;
+  }
+  
